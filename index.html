@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <!-- TITTLE IMAGE -->
+     <link rel="website icon" type="png"
+      href="logo.jpg">
+    <link rel="stylesheet" href="style.css">
+    <!-- Boxicon CSS link -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+</head>
+<body>
+    <!-- HEADER OR NAVBAR -->
+    <header>
+        <a href="#" class="logo"><span>H</span>asan</a>
+        <ul class="navlist">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="right-header">
+            <a href="#" class="btn">Let's chat <i class='bx bx-message-dots'></i></a>
+            <div class="menu-icon">
+                <div class="bar"></div>
+            </div>
+            <button id="themeButton" class="theme-button btn">Toggle Theme</button>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="home" id="home">
+        <div class="hero-info">
+            <h3>Welcome To my World</h3>
+            <h1>Hi I'm Hasan Raza- Your Next Develope</h1>
+            <div class="text-animate">
+                <h2>Frontend Developer</h2>
+            </div>
+            <p>Passionate about creating modern, user-friendly web applications. With a strong foundation in frontend
+                development and an eye for design, I bring ideas to life with clean, efficient code. Let's build
+                something amazing together</p>
+            <div class="btn-box">
+                <a href="mailto:richard@mail.com" class="btn">Hire Me Now! <i class='bx bx-right-arrow-alt'></i></a>
+                <a href="img/resume.pdf" target="_blank" class="btn d-CV">Download CV <i class='bx bx-download'></i></a>
+            </div>
+            <div class="social-media">
+                <div class="bg-icon">
+                    <a href="#"><i class='bx bxl-instagram'></i></a>
+                    <span></span>
+                </div>
+                <div class="bg-icon">
+                    <a href="#"><i class='bx bxl-github'></i></a>
+                    <span></span>
+                </div>
+                <div class="bg-icon">
+                    <a href="#"><i class='bx bxl-twitter'></i></a>
+                    <span></span>
+                </div>
+                <div class="bg-icon">
+                    <a href="#"><i class='bx bxl-facebook'></i></a>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+        <div class="img-hero">
+            <img src="img/pixnova-output__1_-removebg-preview.png" alt="">
+            <div class="rotate-text">
+                <div class="text">
+                    <p>I'm Frontend Developer And a Designer</p>
+                </div>
+                <span><i></i></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="img/pixnova-output__1_-removebg-preview.png" alt="" class="aboutHero">
+            <div class="showcase-ring">
+                <img src="shapes/ring.png" class="ring">
+                <img src="shapes/circle.png" class="circle">
+            </div>
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About Me</h2>
+            <h3>A Passionate Developer Eager to Learn</h3>
+            <p>As a recent graduate, I am excited to start my journey in web development. I have a strong foundation in
+                frontend technologies and a keen interest in creating user-friendly applications. I am committed to
+                continuous learning and growth in this dynamic field.</p>
+            <div class="about-btn">
+                <button class="active">Skills</button>
+                <button>Aspirations</button>
+                <button>Education</button>
+            </div>
+            <div class="content-btn">
+                <div class="content">
+                    <div class="text-box">
+                        <p>Frontend Development</p>
+                        <span>Building responsive and interactive web applications.</span>
+                    </div>
+                    <div class="text-box">
+                        <p>UI/UX Design</p>
+                        <span>Creating intuitive user experiences.</span>
+                    </div>
+                    <div class="text-box">
+                        <p>Continuous Learning</p>
+                        <span>Always exploring new technologies and frameworks.</span>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="text-box">
+                        <p>Future Goals</p>
+                        <span>To become a full-stack developer and contribute to impactful projects.</span>
+                    </div>
+                    <div class="text-box">
+                        <p>Internships</p>
+                        <span>Seeking opportunities to gain practical experience.</span>
+                    </div>
+                    <div class="text-box">
+                        <p>Networking</p>
+                        <span>Connecting with professionals in the industry.</span>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="text-box">
+                        <p>Education</p>
+                        <span>Bachelor's Degree in Computer Science</span>
+                    </div>
+                    <div class="text-box">
+                        <p>Online Courses</p>
+                        <span>Completed various courses in web development.</span>
+                    </div>
+                    <div class="text-box">
+                        <p>Projects</p>
+                        <span>Worked on personal projects to enhance my skills.</span>
+                    </div>
+                </div>
+            </div>
+            <div class="cvContent">
+                <a href="img/resume.pdf" target="_blank" class="btn d-CV">Download My CV <i class='bx bx-download'></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- MY SERVICES -->
+    <section class="services" id="services">
+        <div class="main-text">
+            <h2 class="heading">My Expertise</h2>
+            <span>what i will do for you</span>
+        </div>
+        <div class="allServices">
+            <div class="servicesItem">
+                <div class="icon-services">
+                    <i class='bx bx-layer'></i>
+                    <span></span>
+                </div>
+                <h3>App Development</h3>
+                <p>Crafting innovative mobile solutions with cutting-edge technology. Specializing in iOS and Android
+                    app development with focus on performance and user experience</p>
+                <a href="#" class="readMore">Read More</a>
+            </div>
+            <div class="servicesItem">
+                <div class="icon-services">
+                    <i class='bx bx-code-alt'></i>
+                    <span></span>
+                </div>
+                <h3>Web Development</h3>
+                <p>Building responsive and dynamic websites using modern frameworks. From simple landing pages to
+                    complex web applications, delivering clean and efficient solutions.</p>
+                <a href="#" class="readMore">Read More</a>
+            </div>
+            <div class="servicesItem">
+                <div class="icon-services">
+                    <i class='bx bx-desktop'></i>
+                    <span></span>
+                </div>
+                <h3>UI / UX Design</h3>
+                <p>Creating intuitive and visually appealing interfaces that enhance user engagement. Focused on
+                    user-centered design principles and seamless interactions</p>
+                <a href="#" class="readMore">Read More</a>
+            </div>
+            <div class="servicesItem">
+                <div class="icon-services">
+                    <i class='bx bxs-party'></i>
+                    <span></span>
+                </div>
+                <h3>Digital Marketing</h3>
+                <p>Driving growth through strategic online marketing campaigns. Expertise in SEO, social media
+                    management, and content strategy to boost your digital presence.</p>
+                <a href="#" class="readMore">Read More</a>
+            </div>
+        </div>
+        <div class="proposal">
+            <div class="text-box">
+                <span>Get It Touch</span>
+                <h3>Have a Project On Your Mind</h3>
+                <a href="#contact" class="btn">Contact Me</a>
+            </div>
+            <img src="img/support.png" class="first">
+        </div>
+        <div class="showcase">
+            <img src="shapes/ring.png" class="ring">
+            <img src="shapes/circle.png" class="circle">
+            <img src="shapes/circle.png" class="circle2">
+            <img src="shapes/circle.png" class="circle3">
+            <img src="shapes/half-ring.png" class="half-ring">
+        </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+        <div class="main-text">
+            <h2 class="heading">My Services</h2>
+            <span>what i will do for you</span>
+        </div>
+        <div class="fillter-buttons">
+            <button class="button mixitup-control-active" data-filter="all">All Work</button>
+            <button class="button" data-filter=".web">Web Development</button>
+            <button class="button" data-filter=".uiux">UI/UX Design</button>
+            <button class="button" data-filter=".branding">Branding Design</button>
+        </div>
+        <div class="portfolio-gallery">
+            <div class="portfolio-box mix uiux">
+                <div class="portfolio-content">
+                    <h3>UI/UX Design</h3>
+                    <p>Clean interface designs for mobile apps focusing on user experience and intuitive navigation.</p>
+                    <a href="#" class="readMore">Explore More</a>
+                </div>
+                <div class="portfolio-img">
+                    <img src="img/portfolio/1.jpg" alt="">
+                </div>
+            </div>
+            <div class="portfolio-box mix web">
+                <div class="portfolio-content">
+                    <h3>Web Design</h3>
+                    <p>Responsive website layouts combining modern aesthetics with seamless functionality.</p>
+                    <a href="#" class="readMore">Explore More</a>
+                </div>
+                <div class="portfolio-img">
+                    <img src="img/portfolio/2.jpg" alt="">
+                </div>
+            </div>
+            <div class="portfolio-box mix web">
+                <div class="portfolio-content">
+                    <h3>Web Development</h3>
+                    <p>Custom web solutions built with latest technologies and performance optimization.</p>
+                    <a href="#" class="readMore">Explore More</a>
+                </div>
+                <div class="portfolio-img">
+                    <img src="img/portfolio/3.jpg" alt="">
+                </div>
+            </div>
+            <div class="portfolio-box mix web">
+                <div class="portfolio-content">
+                    <h3>Web Development</h3>
+                    <p>Full-stack development with focus on scalable and maintainable code architecture.</p>
+                    <a href="#" class="readMore">Explore More</a>
+                </div>
+                <div class="portfolio-img">
+                    <img src="img/portfolio/4.jpg" alt="">
+                </div>
+            </div>
+            <div class="portfolio-box mix uiux">
+                <div class="portfolio-content">
+                    <h3>UI/UX Design</h3>
+                    <p>User-centered design solutions that enhance engagement and conversion rates.</p>
+                    <a href="#" class="readMore">Explore More</a>
+                </div>
+                <div class="portfolio-img">
+                    <img src="img/portfolio/5.jpg" alt="">
+                </div>
+            </div>
+            <div class="portfolio-box mix branding">
+                <div class="portfolio-content">
+                    <h3>Web Development</h3>
+                    <p>Strategic brand identity development aligned with business objectives</p>
+                    <a href="#" class="readMore">Explore More</a>
+                </div>
+                <div class="portfolio-img">
+                    <img src="img/portfolio/6.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- BLOGS -->
+    <section class="blog" id="blog">
+        <div class="main-text">
+            <h2 class="heading">Blog</h2>
+            <span>Latest News & Post</span>
+        </div>
+        <div class="blog-box swiper mySwiper">
+            <div class="cards swiper-wrapper">
+                <div class="card swiper-slide">
+                    <div class="card-top">
+                        <img src="img/blog/1.jpg" alt="">
+                    </div>
+                    <div class="card-info">
+                        <h2>Mobile App Landing Page</h2>
+                        <span class="date">Sunday, Jan 14, 2023</span>
+                        <p class="excerpt">
+                            Discover create an engaging landing page for mobile apps.
+                        </p>
+                        <a href="#" class="readMore">Explore More</a>
+                    </div>
+                </div>
+                <div class="card swiper-slide">
+                    <div class="card-top">
+                        <img src="img/blog/2.jpg" alt="">
+                    </div>
+                    <div class="card-info">
+                        <h2>UI/UX Design Tips</h2>
+                        <span class="date">Monday, Feb 20, 2023</span>
+                        <p class="excerpt">
+                            Learn the essentials of designing user-friendly interfaces.
+                        </p>
+                        <a href="#" class="readMore">Explore More</a>
+                    </div>
+                </div>
+                <div class="card swiper-slide">
+                    <div class="card-top">
+                        <img src="img/blog/3.jpg" alt="">
+                    </div>
+                    <div class="card-info">
+                        <h2>Website Development Guide</h2>
+                        <span class="date">Friday, Mar 10, 2023</span>
+                        <p class="excerpt">
+                            Step-by-step guide to building professional websites.
+                        </p>
+                        <a href="#" class="readMore">Explore More</a>
+                    </div>
+                </div>
+                <div class="card swiper-slide">
+                    <div class="card-top">
+                        <img src="img/blog/4.jpg" alt="">
+                    </div>
+                    <div class="card-info">
+                        <h2>SEO Strategies</h2>
+                        <span class="date">Saturday, Apr 15, 2023</span>
+                        <p class="excerpt">
+                            Boost your websites with these proven SEO techniques.
+                        </p>
+                        <a href="#" class="readMore">Explore More</a>
+                    </div>
+                </div>
+                <div class="card swiper-slide">
+                    <div class="card-top">
+                        <img src="img/blog/5.jpg" alt="">
+                    </div>
+                    <div class="card-info">
+                        <h2>Graphic Design Inspiration</h2>
+                        <span class="date">Sunday, May 22, 2023</span>
+                        <p class="excerpt">
+                            Explore creative ideas for stunning graphic designs.
+                        </p>
+                        <a href="#" class="readMore">Explore More</a>
+                    </div>
+                </div>
+                <div class="card swiper-slide">
+                    <div class="card-top">
+                        <img src="img/blog/6.jpg" alt="">
+                    </div>
+                    <div class="card-info">
+                        <h2>Content Creation Guide</h2>
+                        <span class="date">Monday, Jun 5, 2023</span>
+                        <p class="excerpt">
+                            Tips to craft compelling content for your audience.
+                        </p>
+                        <a href="#" class="readMore">Explore More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="showcase">
+            <img src="shapes/ring.png" class="ring">
+            <img src="shapes/second-circle.png" class="second-circle">
+            <img src="shapes/circle.png" class="circle">
+            <img src="shapes/half-ring.png" class="half-ring">
+        </div>
+    </section>
+
+    <!-- CONTACT FORM -->
+    <section class="down-box" id="contact">
+        <div class="contactSkills">
+            <div class="contact-info">
+                <div class="main-text">
+                    <h2 class="heading">Contact Me</h2>
+                    <span>get in touch with me</span>
+                </div>
+                <form id="contactForm">
+                    <div class="input-box">
+                        <input type="text" placeholder="First Name">
+                        <input type="text" placeholder="Last Name">
+                    </div>
+                    <input type="email" placeholder="Email">
+                    <input type="text" placeholder="Subject">
+                    <textarea name="#" id="" cols="30" rows="10"></textarea>
+                    <div class="formBtn">
+                        <button type="submit" class="btn">Send Message</button>
+                    </div>
+                    </form>
+            </div>
+
+            <!-- SKILLS TREE -->
+            <div class="skills">
+                <div class="container">
+                    <div class="skillBox">
+                        <div class="main-text">
+                            <h2 class="heading">My Skills</h2>
+                            <span>Let Me Help you</span>
+                        </div>
+                        <div class="skill-wrap">
+                            <div class="skill">
+                                <div class="outer-circle">
+                                    <div class="inner-circle">
+                                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="180px"
+                                            height="180px">
+                                            <defs>
+                                                <linearGradient id="GradientColor">
+                                                    <stop offset="0%" stop-color="#e91e63" />
+                                                    <stop offset="100%" stop-color="#673ab7" />
+                                                </linearGradient>
+                                            </defs>
+                                            <circle cx="85" cy="85" r="75" stroke-linecap="round" />
+                                        </svg>
+                                        <h2 class="counter">
+                                            <span data-target="89">0</span>%
+                                        </h2>
+                                    </div>
+                                </div>
+                                <div class="sk-title">
+                                    HTML
+                                </div>
+                            </div>
+                            <div class="skill">
+                                <div class="outer-circle">
+                                    <div class="inner-circle">
+                                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="180px"
+                                            height="180px">
+                                            <defs>
+                                                <linearGradient id="GradientColor">
+                                                    <stop offset="0%" stop-color="#e91e63" />
+                                                    <stop offset="100%" stop-color="#673ab7" />
+                                                </linearGradient>
+                                            </defs>
+                                            <circle cx="85" cy="85" r="75" stroke-linecap="round" />
+                                        </svg>
+                                        <h2 class="counter">
+                                            <span data-target="92">0</span>%
+                                        </h2>
+                                    </div>
+                                </div>
+                                <div class="sk-title">
+                                    CSS
+                                </div>
+                            </div>
+                            <div class="skill">
+                                <div class="outer-circle">
+                                    <div class="inner-circle">
+                                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="180px"
+                                            height="180px">
+                                            <defs>
+                                                <linearGradient id="GradientColor">
+                                                    <stop offset="0%" stop-color="#e91e63" />
+                                                    <stop offset="100%" stop-color="#673ab7" />
+                                                </linearGradient>
+                                            </defs>
+                                            <circle cx="85" cy="85" r="75" stroke-linecap="round" />
+                                        </svg>
+                                        <h2 class="counter">
+                                            <span data-target="56">0</span>%
+                                        </h2>
+                                    </div>
+                                </div>
+                                <div class="sk-title">
+                                    JavaScript
+                                </div>
+                            </div>
+                            <div class="skill">
+                                <div class="outer-circle">
+                                    <div class="inner-circle">
+                                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="180px"
+                                            height="180px">
+                                            <defs>
+                                                <linearGradient id="GradientColor">
+                                                    <stop offset="0%" stop-color="#e91e63" />
+                                                    <stop offset="100%" stop-color="#673ab7" />
+                                                </linearGradient>
+                                            </defs>
+                                            <circle cx="85" cy="85" r="75" stroke-linecap="round" />
+                                        </svg>
+                                        <h2 class="counter">
+                                            <span data-target="19">0</span>%
+                                        </h2>
+                                    </div>
+                                </div>
+                                <div class="sk-title">
+                                    UI/UX Design
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>Copyright © 2024 by <span>Hasan Raza</span> || All Right Reservd.</p>
+    </footer>
+
+    <!-- PROGRESS BAR -->
+    <div id="progress">
+        <span id="progress-value">
+            <i class='bx bxs-chevrons-up'></i>
+        </span>
+    </div>
+
+    <!-- scroll reveal  -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <!-- mixitup cdn js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
